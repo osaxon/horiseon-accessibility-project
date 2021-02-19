@@ -27,4 +27,4 @@ Horiseon provided the source code for their site and asked us to review and ensu
 Upon reviewing, we found changes were needed in the following areas:
 
   * HTML tags - mostly <divs> used throughout
-  * ...
+  * Main 
