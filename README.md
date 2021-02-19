@@ -23,8 +23,19 @@ Horiseon approached us to make changes to their site to meet current accessibili
   
  ## Project Scope
 
-Horiseon provided the source code for their site and asked us to review and ensure it meets accessibility standards.
-Upon reviewing, we found changes were needed in the following areas:
+Horiseon provided the source code for their site and asked us to review and make changes to ensure it meets accessibility standards.
 
-  * HTML tags - mostly <divs> used throughout
-  * Main 
+## Updates in this repository
+
+The following changes have been made to deliver on these requirements:
+
+  * The title of the page updated with company name
+  * Div tags replaced with proper semantic HTML tags
+    * Site now has 'Header', 'Nav', 'Main', 'Aside', 'Article', 'Figure' and 'Footer' tags
+  * The focal point of the site is a background image of a digital marketing meeting taking place which was inserted using a CSS property of 'background-image'
+    * The image is now referenced in the HTML within a figure tag and includes alt text to ensure the site can be used by visitors with vision impairments
+  * Style sheet updated to maintain styling with the updated HTML tags
+  * Consolidated HTML classes to reduce repetition within the CSS style sheet 
+      * All articles in the main content section have been given the same class so as they can be styled with a single block of code in the style sheet. Provides flexibility to add additional services in future without the need to update the style sheet
+
+
